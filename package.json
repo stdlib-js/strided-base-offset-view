@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/strided-base-offset-view",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Return a typed array view having the same data type as a provided input typed array and starting at a specified index offset.",
   "license": "Apache-2.0",
   "author": {

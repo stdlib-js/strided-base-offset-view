@@ -45,30 +45,14 @@ limitations under the License.
 
 <!-- Package usage documentation. -->
 
-<section class="installation">
 
-## Installation
-
-```bash
-npm install @stdlib/strided-base-offset-view
-```
-
-Alternatively,
-
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
--   If you are using Deno, visit the [`deno` branch][deno-url].
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
-
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
-
-</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-var offsetView = require( '@stdlib/strided-base-offset-view' );
+import offsetView from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-offset-view@deno/mod.js';
 ```
 
 #### offsetView( x, offset )
@@ -76,7 +60,7 @@ var offsetView = require( '@stdlib/strided-base-offset-view' );
 Returns a typed array view having the same data type as a provided input typed array and starting at a specified index offset.
 
 ```javascript
-var Float64Array = require( '@stdlib/array-float64' );
+import Float64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@deno/mod.js';
 
 var x = new Float64Array( 10 );
 
@@ -93,7 +77,7 @@ var len = view.length;
 The `offset` argument specifies the starting index of the returned typed array view relative to the input array `x`.
 
 ```javascript
-var Float64Array = require( '@stdlib/array-float64' );
+import Float64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@deno/mod.js';
 
 var x = new Float64Array( [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0 ] );
 
@@ -131,8 +115,8 @@ var v2 = view[ 1 ];
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-var Float64Array = require( '@stdlib/array-float64' );
-var offsetView = require( '@stdlib/strided-base-offset-view' );
+import Float64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@deno/mod.js';
+import offsetView from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-offset-view@deno/mod.js';
 
 // Define a typed array:
 var x = new Float64Array( [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0 ] );
@@ -183,7 +167,7 @@ var v1 = x[ 1 ];
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 

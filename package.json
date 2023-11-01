@@ -42,9 +42,9 @@
   "devDependencies": {
     "@stdlib/array-buffer": "^0.1.0",
     "@stdlib/array-complex64": "^0.1.0",
-    "@stdlib/array-float32": "^0.1.0",
-    "@stdlib/array-float64": "^0.1.0",
-    "@stdlib/array-uint8": "^0.1.0",
+    "@stdlib/array-float32": "^0.1.1",
+    "@stdlib/array-float64": "^0.1.1",
+    "@stdlib/array-uint8": "^0.1.1",
     "@stdlib/assert-is-complex64array": "^0.1.0",
     "@stdlib/assert-is-float32array": "^0.1.1",
     "@stdlib/assert-is-float64array": "^0.1.1",

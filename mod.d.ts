@@ -1,4 +1,4 @@
-/**
+/*
 * @license Apache-2.0
 *
 * Copyright (c) 2021 The Stdlib Authors.
@@ -16,19 +16,26 @@
 * limitations under the License.
 */
 
-'use strict';
+// TypeScript Version: 4.1
 
-// MAIN //
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@main/index.d.ts"/>
+
+import { TypedArray, ComplexTypedArray } from '@stdlib/types/array';
+
+/**
+* Typed array or complex number typed array.
+*/
+type TypedArrayOrComplexTypedArray = TypedArray | ComplexTypedArray;
 
 /**
 * Returns a typed array view having the same data type as a provided input typed array and starting at a specified index offset.
 *
-* @param {(TypedArray|ComplexArray)} x - input array
-* @param {NonNegativeInteger} offset - starting index
-* @returns {(TypedArray|ComplexArray)} typed array view
+* @param x - input array
+* @param offset - starting index
+* @returns typed array view
 *
 * @example
-* var Float64Array = require( '@stdlib/array-float64' );
+* var Float64Array = require( `@stdlib/array/float64` );
 *
 * var x = new Float64Array( 10 );
 *
@@ -36,13 +43,10 @@
 * // returns <Float64Array>
 *
 * var bool = ( out.buffer === x.buffer );
-* // returns true
 */
-function offsetView( x, offset ) {
-	return new x.constructor( x.buffer, x.byteOffset+(x.BYTES_PER_ELEMENT*offset), x.length-offset ); // eslint-disable-line max-len
-}
+declare function offsetView( x: TypedArrayOrComplexTypedArray, offset: number ): TypedArrayOrComplexTypedArray;
 
 
 // EXPORTS //
 
-module.exports = offsetView;
+export = offsetView;

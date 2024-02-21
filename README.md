@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import offsetView from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-offset-view@deno/mod.js';
+import offsetView from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-offset-view@v0.2.1-deno/mod.js';
 ```
 
 #### offsetView( x, offset )
@@ -116,7 +116,7 @@ var v2 = view[ 1 ];
 
 ```javascript
 import Float64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@deno/mod.js';
-import offsetView from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-offset-view@deno/mod.js';
+import offsetView from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-offset-view@v0.2.1-deno/mod.js';
 
 // Define a typed array:
 var x = new Float64Array( [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0 ] );

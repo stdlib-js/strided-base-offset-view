@@ -172,6 +172,12 @@ var v1 = x[ 1 ];
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   <span class="package-name">[`@stdlib/strided-base/min-view-buffer-index`][@stdlib/strided/base/min-view-buffer-index]</span><span class="delimiter">: </span><span class="description">return the minimum accessible index based on a set of provided strided array parameters.</span>
+
 </section>
 
 <!-- /.related -->
@@ -247,6 +253,12 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [branches-url]: https://github.com/stdlib-js/strided-base-offset-view/blob/main/branches.md
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/strided-base-offset-view/main/LICENSE
+
+<!-- <related-links> -->
+
+[@stdlib/strided/base/min-view-buffer-index]: https://github.com/stdlib-js/strided-base-min-view-buffer-index
+
+<!-- </related-links> -->
 
 </section>
 

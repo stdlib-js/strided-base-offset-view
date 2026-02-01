@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/strided-base-offset-view",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Return a typed array view having the same data type as a provided input typed array and starting at a specified index offset.",
   "license": "Apache-2.0",
   "author": {
@@ -41,7 +41,7 @@
   },
   "devDependencies": {
     "@stdlib/array-buffer": "^0.2.2",
-    "@stdlib/array-complex64": "^0.3.0",
+    "@stdlib/array-complex64": "^0.3.1",
     "@stdlib/array-float32": "^0.2.2",
     "@stdlib/array-float64": "^0.2.2",
     "@stdlib/array-uint8": "^0.2.2",
@@ -78,7 +78,6 @@
     "typed",
     "view"
   ],
-  "__stdlib__": {},
   "funding": {
     "type": "opencollective",
     "url": "https://opencollective.com/stdlib"
